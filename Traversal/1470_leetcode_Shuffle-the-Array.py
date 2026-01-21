@@ -5,6 +5,5 @@ class Solution:
         for i in range(n):
             output.append(nums[i])
             output.append(nums[i+n])
-        
         return output
         
