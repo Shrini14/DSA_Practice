@@ -2,7 +2,6 @@ class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         l = 1
         r = len(numbers)
-        
         while l < r:
             act = numbers[l-1]+numbers[r-1]
             if act == target:
